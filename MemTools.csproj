@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<PackageId>MemTools</PackageId>
+		<Version>1.0.0</Version>
+		<Description>Library for simple reading/writing of process memory and freezing values.</Description>
+		<PackageTags>memory, process, hacking, pointer</PackageTags>
+		<RepositoryUrl>https://github.com/SolidProgramming/MemTools</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/SolidProgramming/MemTools</PackageProjectUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include=".\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+</Project>
