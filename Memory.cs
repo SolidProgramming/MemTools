@@ -1,4 +1,9 @@
-﻿namespace MemTools
+﻿using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Text;
+
+namespace MemTools
 {
     public class Memory
     {
